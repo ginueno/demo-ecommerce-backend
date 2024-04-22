@@ -34,7 +34,7 @@ public class AppConfig {
                 .cors(cors -> cors.configurationSource(request -> {
                     CorsConfiguration cfg = new CorsConfiguration();
                     cfg.setAllowedOrigins(Arrays.asList("http://localhost:3000", "http://localhost:4200",
-                            "https://phucbv-ecommerce-demo.vercel.app"));
+                            "https://phucbv-ecommerce-demo-cu1kbwek5-bui-van-phucs-projects.vercel.app"));
                     cfg.setAllowedMethods(Collections.singletonList("*"));
                     cfg.setAllowCredentials(true);
                     cfg.setAllowedHeaders(Collections.singletonList("*"));
